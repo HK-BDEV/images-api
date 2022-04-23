@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"target": "es2018",
+		"module": "commonjs",
+		"rootDir": "src",
+		"outDir": "build",
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"esModuleInterop": true,
+		"strictPropertyInitialization": false,
+		"strict": true,
+		"lib": [
+			"es6",
+			"dom"
+		],
+		"typeRoots": [
+			"@types",
+			"node_modules/@types"
+		]
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
